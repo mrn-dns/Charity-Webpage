@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset = 'utf-8'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.css">
+  <link href="css/common.css" rel="stylesheet">
+  <title>Fasthelp</title>
+</head>
+<body>
+
+    <!--home button-->
+
+        <a href="index.html"><p class="ui left floated compact basic segment stepper"><i class="huge home icon"></i></p></a>
+
+    <!--home button-->
+
+    <!--navigation menu-->
+
+
+    <div class="ui container"> 
+        <div class="ui two column centered segment grid" id="top">
+            <div class="eight wide middle aligned column"> <!--image-->
+                <img src="images/char.png" alt="charity">
+            </div>
+
+            <div class="eight wide column middle aligned"> <!--buttons-->
+                <div class="ui red inverted compact menu" id="menu">
+                <div class="ui dropdown item" tabindex="0">
+                    <span class="item">Team Members</span><i class="dropdown icon"></i> <!--Team Members-->
+                    <div class="menu transition hidden" tabindex="-1">
+                        <div class="item" data-value="kimi">                        <!--Kimi Raikkonen-->
+                          <a href="kimi.html" style="color:black">
+                            <img class="ui mini avatar image" src="images/rai.jfif" alt="r"> 
+                            <span>Kimi Raikkonen</span>
+                          </a>
+                        </div>
+                        <div class="item" data-value="ric">                         <!--Daniel Ricciardo-->
+                          <a href="ricc.html" style="color:black">
+                            <img class="ui mini avatar image" src="images/ric.jfif" alt="g">
+                            <span>Daniel Ricciardo</span> 
+                          </a>
+                        </div>
+                        <div class="item" data-value="vet">                         <!--Sebastian Vettel-->
+                          <a href="seb.html" style="color:black">
+                            <img class="ui mini avatar image" src="images/vet.jfif" alt="rc">
+                            <span>Sebastian Vettel</span>
+                          </a>
+                        </div>
+                    </div>
+                </div>
+                <a class="item " href ="market.html">Marketplace</a>
+                <a class="item " href ="donate.html">Donate</a>
+                </div>
+            </div>
+
+            <div class="ui vertical divider"></div>
+        </div>
+    </div>
+
+
+    <!--navigation menu-->
+
+
+
+    <!--personal card-->
+    
+    <div class="ui centered card" style="background-color: #e99916;">     
+           <div class="image">
+        <img src="images/ric.jfif" alt="r">
+      </div>
+      <div class="content">
+        <a class="header">Daniel Ricciardo</a>
+        <div class="meta">
+          <span class="date">Born in 1989</span>
+        </div>
+        <div class="description">
+          Daniel Ricciardo is an Italian-Australian racing driver who is currently competing in Formula One, under the Australian flag, for McLaren.
+        </div>
+      </div>
+      <div class="extra content">
+        <a>
+          <i class="trophy icon"></i>
+          8 Grand Prix victories
+        </a>
+      </div>
+    </div>
+
+
+    <!--personal card-->
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>   
+<script  src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.js"></script>
+<script>
+  $('.ui.dropdown').dropdown();
+</script>
+
+</body>
+</html>

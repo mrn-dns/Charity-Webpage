@@ -1,0 +1,31 @@
+.ui.container {
+    width: 800px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+.ui.rail {
+  position: absolute;
+  top: 0%;
+  width: 250px;
+  height: 100%;
+}
+
+#rail1, #rail2, #achievements {
+  background-color: #e99916;
+}
+
+.ui.stacked.segment {
+  padding-bottom: 1.4em;
+  background-color: #e99916;
+  color: white;
+}
+
+.ui.sticky.fixed.top {
+  top: 10px;
+  bottom: auto;
+}
+
+.content {
+  color: white;
+}

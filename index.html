@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset = 'utf-8'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.css">
+  <link href="css/index.css" rel="stylesheet">
+  <link href="css/common.css" rel="stylesheet">
+  <title>Fasthelp</title>
+</head>
+
+
+<body>
+
+
+  <div class="ui container"> <!--navigation menu-->
+    <div class="ui two column centered segment grid" id="top">
+      <div class="eight wide middle aligned column"> <!--image-->
+        <img src="images/char.png" alt="charity">
+      </div>
+
+      <div class="eight wide column middle aligned"> <!--buttons-->
+        <div class="ui red inverted compact menu" id="menu">
+          <div class="ui dropdown item" tabindex="0">
+            <span class="item">Team Members</span><i class="dropdown icon"></i> <!--Team Members-->
+            <div class="menu transition hidden" tabindex="-1">
+              <div class="item" data-value="kimi">                        <!--Kimi Raikkonen-->
+                <a target="_blank" href="kimi.html" style="color:black">
+                  <img class="ui mini avatar image" src="images/rai.jfif" alt="kimi"> 
+                  <span>Kimi Raikkonen</span>
+                </a>
+              </div>
+              <div class="item" data-value="ric">                         <!--Daniel Ricciardo-->
+                <a target="_blank" href="ricc.html" style="color:black">
+                  <img class="ui mini avatar image" src="images/ric.jfif" alt="ric">
+                  <span>Daniel Ricciardo</span> 
+                </a>
+              </div>
+              <div class="item" data-value="vet">                         <!--Sebastian Vettel-->
+                <a target="_blank" href="seb.html" style="color:black">
+                  <img class="ui mini avatar image" src="images/vet.jfif" alt="vet">
+                  <span>Sebastian Vettel</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <a class="item " href ="market.html">Marketplace</a>
+          <a class="item " href ="donate.html">Donate</a>
+        </div>
+      </div>
+
+      <div class="ui vertical divider"></div>
+    </div>
+  </div>
+
+  <main> <!--centered content-->
+
+    <div class="ui container"> 
+
+      <div id="achievements" class="ui two column vertically divided centered grid segment"> 
+
+
+        <div class="ui left rail">  <!--left rail-->
+          <div class="ui sticky">
+            <div id="rail1" class="ui segment">
+              <div class="ui list">
+                <div class="item">
+                  <i class="users icon" style="color:white;"></i>
+                  <div class="content">
+                    FastHelp
+                  </div>
+                </div>
+                <div class="item">
+                  <i class="marker icon" style="color:white;"></i>
+                  <div class="content">
+                    Monaco
+                  </div>
+                </div>
+                <div class="item">
+                  <i class="mail icon" style="color:white;"></i>
+                  <div class="content">
+                    <a href="mailto:jack@semantic-ui.com">fasthelp@saviour.com</a>
+                  </div>
+                </div>
+                <div class="item">
+                  <i class="linkify icon" style="color:white;"></i>
+                  <div class="content">
+                    <a href="index.html">fasthelp.com</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="ui right rail"> <!--right rail-->
+          <div class="ui sticky">
+            <div id="rail2" class="ui segment">
+              <div class="ui segment">
+                <a target="_blank" href="https://www.unicef.org/"><img src="images/unicef.jpg" class="ui fluid rounded image" alt="Unicef"></a>
+              </div>
+              <div class="ui segment">
+                <a target="_blank" href="https://www.redcross.ie/"><img src="images/redcross.jpg" class="ui fluid rounded image" alt="redcross"></a>
+              </div>
+              <div class="ui segment">
+                <a target="_blank" href="https://www.dogstrust.ie/"><img src="images/dogtrust.png" class="ui fluid rounded image" alt="dog"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ui row">
+          <section class="eight wide center aligned column">
+            <img src="images/construction.jfif" class="ui fluid rounded image" alt="Construction Site">
+          </section>
+          <section class="eight wide middle aligned column">
+            <div class="ui stacked segment"><p>Construction has begun on the residential homes for homeless people. In total, 5 flat buildings will accomodate the people in need with a total capacity of 2000.</p></div>
+          </section>
+        </div>
+        <div class="ui row">
+          <section class="eight wide center aligned column">
+            <img src="images/food.jfif" class="ui fluid rounded image" alt="Food">
+          </section>
+          <section class="eight wide middle aligned column">
+            <div class="ui stacked segment"><p>The volunteers have been handing out food supplies for the ones in need in different cities across Ireland for the past few weeks. An estimate of 20,000 people have received food supplies.</p></div>
+          </section>
+        </div>
+        <div class="ui row">
+          <section class="eight wide center aligned column">
+            <img src="images/clothes.jfif" class="ui fluid rounded image" alt="Clothes">
+          </section>
+          <section class="eight wide middle aligned column">
+            <div class="ui stacked segment"><p>Clothes donations will be accepted starting from the date of 10.12. Collection point is located in Monaco, main office address.</p></div>
+          </section>
+        </div>
+        <div class="ui row">
+          <section class="eight wide center aligned column">
+            <img src="images/dogs.jfif" class="ui fluid rounded image" alt="Dogs">
+          </section>
+          <section class="eight wide middle aligned column">
+            <div class="ui stacked segment"><p>FastHelp has been fighting against animal cruelty for the past few years. In total, 15.347 animals have been saved.</p></div>
+          </section>
+        </div>
+        
+
+      </div>
+
+
+    </div>
+
+  </main>
+
+  <footer></footer>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>   
+<script  src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.js"></script>
+<script>
+  $('.ui.dropdown').dropdown();
+  $('.ui.sticky').sticky({
+    context: $('#achievements')
+  });
+  ;
+</script>
+
+
+
+</body>
+
+
+
+
+
+</html>

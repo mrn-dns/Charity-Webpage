@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset = 'utf-8'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.css">
+  <link href="css/common.css" rel="stylesheet">
+  <link href="css/donate.css" rel="stylesheet">
+  <title>Fasthelp</title>
+</head>
+<body>
+
+    <!--home button-->
+
+    <a href="index.html"><p class="ui left floated compact basic segment stepper"><i class="huge home icon"></i></p></a>
+
+    <!--home button-->
+
+    <!--navigation menu-->
+
+
+    <div class="ui container"> 
+        <div class="ui two column centered segment grid" id="top">
+            <div class="eight wide middle aligned column"> <!--image-->
+                <img src="images/char.png" alt="charity">
+            </div>
+
+            <div class="eight wide column middle aligned"> <!--buttons-->
+                <div class="ui red inverted compact menu" id="menu">
+                    <div class="ui dropdown item" tabindex="0">
+                        <span class="item">Team Members</span><i class="dropdown icon"></i> <!--Team Members-->
+                        <div class="menu transition hidden" tabindex="-1">
+                            <div class="item" data-value="kimi">                        <!--Kimi Raikkonen-->
+                              <a href="kimi.html" style="color:black">
+                                <img class="ui mini avatar image" src="images/rai.jfif" alt="dad"> 
+                                <span>Kimi Raikkonen</span>
+                            </a>
+                        </div>
+                        <div class="item" data-value="ric">                         <!--Daniel Ricciardo-->
+                          <a href="ricc.html" style="color:black">
+                            <img class="ui mini avatar image" src="images/ric.jfif" alt="dada">
+                            <span>Daniel Ricciardo</span> 
+                        </a>
+                    </div>
+                    <div class="item" data-value="vet">                         <!--Sebastian Vettel-->
+                      <a href="seb.html" style="color:black">
+                        <img class="ui mini avatar image" src="images/vet.jfif" alt="fawf">
+                        <span>Sebastian Vettel</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <a class="item " href ="market.html">Marketplace</a>
+        <a class="item " href ="aboutwit.html">Donate</a>
+    </div>
+</div>
+
+<div class="ui vertical divider"></div>
+</div>
+</div>
+
+
+<!--navigation menu-->
+
+<div class="ui container">
+
+    <h2>Donate</h2>
+
+    <form action="process.html" method="get" id = "donating" class="ui form">
+
+
+      <div class = "inline field">
+         <label for="contactname" class="three wide field">Name</label>
+         <input type="text" name="contactname" id="contactname" class="eight wide field" autofocus required pattern = "[A-Z][a-z]+( [A-Z][a-z]+)*"
+         title="Please enter a name (Surname optional) with First Letter capitalised">
+     </div>
+
+     <div class = "inline field">
+         <label for="email" class="three wide field">Email Address</label>
+         <input type="email" name="email" id="email" class="eight wide field" required pattern = "^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$"
+         title="Please enter an valid e-mail">
+     </div>
+
+     <label for="y" class="three wide field">Did you donate before?</label>
+     <div class="field">
+        <div class="ui radio checkbox">
+            <input type="radio" name="yes" checked="checked" id = "y" value = "y">
+            <label for = "y" >Yes</label>
+        </div>
+    </div>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="no"  id = "n" value = "n">
+        <label for = "n">No</label>
+    </div>
+</div>
+
+<div class = "inline field">
+ <label for="amount" class="three wide field">Amount</label>
+ <input type="number" name="amount" id="amount" class="eight wide field" 
+ title="Please enter amount" min = "1">
+</div>
+
+<div class = "inline field">
+ <label for="date" class="three wide field">Birth Date</label>
+ <input type="date" name="date" id="date" class="eight wide field" 
+ title="Please enter a date">
+</div>
+
+<div class = "inline field">
+ <label for="product" class="three wide field">Payment</label>
+ <select name="product" id="product">
+  <option value="ford" selected="selected">Visa</option>
+  <option value="hyundai" >MasterCard</option>
+  <option value="toyota">Visa Electron</option>
+  <option value="renault">MasterCard Plus</option>
+  <option value="nissan">Bitcoin</option>
+</select>
+</div>
+
+<label class="three wide field">Please provide any other details you think will be useful to us in the text area below (it may save us calling or emailing you, and help avoid delays).</label>
+
+<div class="inline field">
+    <label class="three wide field">More details (as much as you think we'll need!)</label>
+    <textarea id = "comments" name = "comments" class="twelve wide field"></textarea>
+</div>
+
+<div class="inline field">
+    <input type ="submit" class="ui primary button" value = "Donate">
+    <input type="reset" class="ui primary button" value = "Start Over">
+</div>
+
+
+</form>
+
+
+
+</div>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>   
+<script  src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.js"></script>
+<script>
+  $('.ui.dropdown').dropdown();
+</script>
+
+</body>
+</html>

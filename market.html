@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset = 'utf-8'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.css">
+  <link href="css/market.css" rel="stylesheet">
+  <link href="css/common.css" rel="stylesheet">
+  <title>Fasthelp</title>
+</head>
+
+
+<body>
+
+  <!--home button-->
+
+          <a href="index.html"><p class="ui left floated compact basic segment stepper"><i class="huge home icon"></i></p></a>
+
+  <!--home button-->
+
+
+  <div class="ui container"> <!--navigation menu-->
+    <div class="ui two column centered segment grid" id="top">
+      <div class="eight wide middle aligned column"> <!--image-->
+        <img src="images/char.png" alt="charity">
+      </div>
+
+      <div class="eight wide column middle aligned"> <!--buttons-->
+        <div class="ui red inverted compact menu" id="menu">
+          <div class="ui dropdown item" tabindex="0">
+            <span class="item">Team Members</span><i class="dropdown icon"></i> <!--Team Members-->
+            <div class="menu transition hidden" tabindex="-1">
+              <div class="item" data-value="kimi">                        <!--Kimi Raikkonen-->
+                <a target="_blank" href="kimi.html" style="color:black">
+                  <img class="ui mini avatar image" src="images/rai.jfif" alt="kimi"> 
+                  <span>Kimi Raikkonen</span>
+                </a>
+              </div>
+              <div class="item" data-value="ric">                         <!--Daniel Ricciardo-->
+                <a target="_blank" href="ricc.html" style="color:black">
+                  <img class="ui mini avatar image" src="images/ric.jfif" alt="daniel">
+                  <span>Daniel Ricciardo</span> 
+                </a>
+              </div>
+              <div class="item" data-value="vet">                         <!--Sebastian Vettel-->
+                <a target="_blank" href="seb.html" style="color:black">
+                  <img class="ui mini avatar image" src="images/vet.jfif" alt="vet">
+                  <span>Sebastian Vettel</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <a class="item " href ="market.html">Marketplace</a>
+          <a class="item " href ="donate.html">Donate</a>
+        </div>
+      </div>
+
+      <div class="ui vertical divider"></div>
+    </div>
+  </div>
+
+  <main> <!--centered content-->
+
+    <div class="ui container"> 
+
+      <div id="achievements" class="ui two column vertically divided centered grid segment"> 
+
+
+        <div class="ui left rail">  <!--left rail-->
+          <div class="ui sticky">
+            <div id="rail1" class="ui segment">
+              <button class="negative ui button">Sell</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="ui right rail"> <!--right rail-->
+          <div class="ui sticky">
+            <div id="rail2" class="ui segment">
+              <div class="ui segment">
+                <a target="_blank" href="https://www.unicef.org/"><img src="images/unicef.jpg" class="ui fluid rounded image" alt="Unicef"></a>
+              </div>
+              <div class="ui segment">
+                <a target="_blank" href="https://www.redcross.ie/"><img src="images/redcross.jpg" class="ui fluid rounded image" alt="redcross"></a>
+              </div>
+              <div class="ui segment">
+                <a target="_blank" href="https://www.dogstrust.ie/"><img src="images/dogtrust.png" class="ui fluid rounded image" alt="dog"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ui row">
+          <section class="seven wide center aligned column">
+            <img src="images/c1.jfif" class="ui fluid rounded image" alt="nhoodie">
+          </section>
+          <section class="two wide center aligned column"><div class="ui vertical divider"><a href="">BUY</a></div></section>
+          <section class="seven wide middle aligned column">
+            <h2 class="ui header">Nike hoodie</h2>
+            <div class="meta"><p>Would fit 6-8 yr old</p></div>
+            <h4 class="ui header"><i class="tag icon"></i>€10</h4>
+          </section>
+        </div>
+        <div class="ui row">
+          <section class="seven wide center aligned column">
+            <img src="images/c2.jfif" class="ui fluid rounded image" alt="wcoat">
+          </section>
+          <section class="two wide center aligned column"><div class="ui vertical divider"><a href="">BUY</a></div></section>
+          <section class="seven wide middle aligned column">
+            <h2 class="ui header">Women’s black coat 16</h2>
+            <div class="meta"><p>Postage included<br>PayPal please</p></div>
+            <h4 class="ui header"><i class="tag icon"></i>€18</h4>
+          </section>
+        </div>
+        <div class="ui row">
+          <section class="seven wide center aligned column">
+            <img src="images/c3.jfif" class="ui fluid rounded image" alt="jersey">
+          </section>
+          <section class="two wide center aligned column"><div class="ui vertical divider"><a href="">BUY</a></div></section>
+          <section class="seven wide middle aligned column">
+            <h2 class="ui header">Gaa Dublin training jersey</h2>
+            <div class="meta"><p>Dublin training jersey l</p></div>
+            <h4 class="ui header"><i class="tag icon"></i>€7</h4>
+          </section>
+        </div>
+        <div class="ui row">
+          <section class="seven wide center aligned column">
+            <img src="images/c4.jfif" class="ui fluid rounded image" alt="Christmas">
+          </section>
+          <section class="two wide center aligned column"><div class="ui vertical divider"><a href="">BUY</a></div></section>
+          <section class="seven wide middle aligned column">
+            <h2 class="ui header">Christmas Jumper and Pjs Age 9</h2>
+            <div class="meta"><p>Christmas jumper and Christmas pjs<br>Used but in great condition<br>Jumper age 9-10 - pjs age 8-9<br>€5 for both<br>Collection D5 or postage available<br>€8 registered post or parcel motel available<br>Payment through stripe, PayPal or Revolut.</p></div>
+            <h4 class="ui header"><i class="tag icon"></i>€10</h4>
+          </section>
+        </div>
+        
+
+      </div>
+
+
+    </div>
+
+  </main>
+
+  <footer></footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>   
+<script  src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.js"></script>
+<script>
+  $('.ui.dropdown').dropdown();
+  $('.ui.sticky').sticky({
+    context: $('#achievements')
+  });
+  ;
+
+</script>
+
+
+
+</body>
+
+
+
+
+
+</html>
